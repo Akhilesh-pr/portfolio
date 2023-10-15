@@ -1,0 +1,137 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Mooli&family=Rajdhani:wght@500&family=Roboto+Serif:opsz,wght@8..144,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+    #main{
+    /* background-image: url(./images/wp6784610-web-developer-wallpapers.jpg);
+    background-size:cover; */
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    
+    
+}
+
+#element{
+  font-size: 5rem;
+  color: blueviolet;
+  font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-size: 4rem;
+    padding: 5px;
+}
+span{
+    color: blueviolet;
+}
+nav{
+    background-color: blueviolet;
+}
+#folio{
+    color: red;
+}
+.navbar-brand{
+    font-size: 35px;
+
+}
+.card-body ul li{
+    list-style:none;
+}
+.heading{
+    font-size: 8vh;
+}
+body{
+    background-color: rgba(0, 255, 255, 0.229);
+}
+i:hover{
+    transform: scale(2);
+}
+.jack{
+    transition: 5s ease-in-out;
+}
+.jack:hover{
+    transform: scale(1.2);
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    transition: 1s ease-in-out;
+}
+a:hover{
+    transform: scale(1.2);
+    color: black !important;
+}
+
+.btnn{
+    
+    background-color:transparent !important;
+    color: rgba(137, 43, 226, 0.422) !important;
+}
+.btnn:hover{
+    background-color: rgba(240, 248, 255, 0.216) !important;
+}
+.card{
+    transition: .5s ease-in-out;
+}
+.card:hover{
+        transform: scale(1.02);
+        
+}
+.accordion-item{
+    transition: 1s ease-in-out;
+}
+.accordion-item:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none !important;
+    color: black;
+    
+}
+.contact{
+    color: black !important;
+}
+.copyright{
+    height: 2rem;
+    width: 100%;
+    background-color: black;
+}
+.btnnn{
+    text-align: center;
+    background-color:transparent;
+    margin-left: 15rem;
+    padding: .3rem;
+    
+}
+@media only screen and (max-width: 700px) {
+    h1{
+        font-size: 2rem;
+        padding: 2px;
+    }
+    #element{
+        font-size: 2rem;
+        padding: 2px;
+    }
+    .btnn{
+    
+        background-color:transparent !important;
+        color: rgba(137, 43, 226, 0.422) !important;
+    }
+    .btnnn{
+        text-align: center;
+        background-color:transparent;
+        margin-left: 3rem;
+        padding: .1rem;
+    }
+    .copyright{
+        height: 1rem;
+        width: 100%;
+        background-color: black;
+        text-align: center;
+    }
+        
+}
