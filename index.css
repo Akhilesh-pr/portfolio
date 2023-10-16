@@ -16,12 +16,12 @@
 }
 
 #element{
-  font-size: 5rem;
+  font-size: 3rem;
   color: blueviolet;
   font-family: 'Times New Roman', Times, serif;
 }
 h1{
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 5px;
 }
 span{
@@ -113,7 +113,7 @@ a{
         padding: 2px;
     }
     #element{
-        font-size: 2rem;
+        font-size: 4vh;
         padding: 2px;
     }
     .btnn{
