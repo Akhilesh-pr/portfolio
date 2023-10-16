@@ -1,154 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Mooli&family=Rajdhani:wght@500&family=Roboto+Serif:opsz,wght@8..144,900&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Mooli&family=Rajdhani:wght@500&family=Roboto+Serif:opsz,wght@8..144,900&display=swap');
-*{
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-    #main{
-    /* background-image: url(./images/wp6784610-web-developer-wallpapers.jpg);
-    background-size:cover; */
+
+body {
+    background-color: rgba(0, 255, 255, 0.229);
+}
+
+#main {
     height: 100vh;
     width: 100%;
     background-color: black;
-    
-    
 }
 
-#element{
-  font-size: 3rem;
-  color: blueviolet;
-  font-family: 'Times New Roman', Times, serif;
+#element {
+    font-size: 3rem;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
 }
-h1{
+
+h1 {
     font-size: 3rem;
     padding: 5px;
 }
-span{
+
+span {
     color: blueviolet;
 }
-nav{
+
+nav {
     background-color: blueviolet;
 }
-#folio{
+
+#folio {
     color: red;
 }
-.navbar-brand{
-    font-size: 35px;
 
+.navbar-brand {
+    font-size: 35px;
 }
-.card-body ul li{
-    list-style:none;
+
+.card-body ul li {
+    list-style: none;
 }
-.heading{
+
+.heading {
     font-size: 8vh;
 }
-body{
-    background-color: rgba(0, 255, 255, 0.229);
-}
-i:hover{
+
+i:hover {
     transform: scale(2);
 }
-.jack{
+
+.jack {
     transition: 5s ease-in-out;
 }
-.jack:hover{
+
+.jack:hover {
     transform: scale(1.2);
 }
-p{
+
+p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-a{
+
+a {
     transition: 1s ease-in-out;
 }
-a:hover{
+
+a:hover {
     transform: scale(1.2);
     color: black !important;
 }
 
-.btnn{
-    
-    background-color:transparent !important;
-    color: rgba(137, 43, 226, 0.422) !important;
+/* .btnn {
+    background-color: rgba(137, 43, 226, 0.379) !important;
+    color: rgba(127, 99, 152, 0) !important; */
 }
-.btnn:hover{
-    background-color: rgba(240, 248, 255, 0.216) !important;
+
+.btnn:hover {
+    background-color: blueviolet !important;
 }
-.card{
-    transition: .5s ease-in-out;
+
+.card {
+    transition: 0.5s ease-in-out;
 }
-.card:hover{
-        transform: scale(1.02);
-        
+
+.card:hover {
+    transform: scale(1.02);
 }
-.accordion-item{
+
+.accordion-item {
     transition: 1s ease-in-out;
 }
-.accordion-item:hover{
+
+.accordion-item:hover {
     transform: scale(1.1);
 }
-a{
+
+a {
     text-decoration: none !important;
     color: black;
-    
 }
-.contact{
+
+.contact {
     color: black !important;
 }
-.copyright{
+
+.copyright {
     height: 2rem;
     width: 100%;
     background-color: black;
 }
-.btnnn{
+
+.btnnn {
     text-align: center;
-    background-color:transparent;
-    margin-left: 15rem;
-    padding: .3rem;
-    
+    background-color:rgb(19, 125, 219) !important;
+    margin-left: 50%;
+    border-radius: 10%;
+    color: white;
+    font-size: 10Px;
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
-@media only screen and (max-width: 700px) {
-    h1{
-        font-size: 4vh;
+
+@media only screen and (max-width: 750px) {
+    h1,
+    #element {
+        font-size: 3vh;
         padding: 2px;
     }
-    #element{
-        font-size: 4vh;
-        padding: 2px;
-    }
-    .btnn{
+
+    .btnn {
     
-        background-color:transparent !important;
+        
         color: rgba(137, 43, 226, 0.422) !important;
         width: 8rem !important;
         height: 2rem !important;
+        color: white !important;
     }
-    .btnnn{
+
+    .btnnn {
         text-align: center;
-        background-color:transparent;
-        margin-left: 3rem;
-        padding: .1rem;
+        background-color: transparent;
+        margin-left: 50%;
+        padding: 0.1rem;
     }
-    .copyright{
+
+    .copyright {
         height: 1rem;
         width: 100%;
         background-color: black;
         text-align: center;
     }
-    #main{
-        height: 90vh;
+
+    #main {
+        height: auto;
+        min-height: 30rem;
         width: 100%;
         background-color: black;
-        
-        
+    }
+
+    .heading {
+        font-size: 3vh;
+    }
+
+    h2 {
+        font-size: 28px !important;
+    }
+    /* #img1{
+        height: 50px;
+        width: 50px;
+    } */
+    .para{
+        justify-content: space-evenly;
+    
+    }
+div.col-6{
+    width: 100%;
+}
+
+}
+
+
+@media only screen and (min-width: 751px ) and (max-width: 950px){
+     .third{
+        margin-left: 25%;
+     }
+     
+    .btnnn {
+        text-align: center;
+        background-color: transparent;
+        margin-left: 50%;
+        padding: 0.1rem;
     }
     .heading{
         font-size: 3vh;
     }
-    h2{
-        font-size: 28px !important;
+    div.col-6{
+        width: 100%;
     }
-
-    
-        
 }
