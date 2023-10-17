@@ -132,7 +132,9 @@ a {
     h1,
     #element {
         font-size: 3vh;
-        padding: 2px;
+        padding: 0px !important;
+        margin: 0px;
+        margin-top: 4px;
     }
 
     .btnn {
@@ -183,9 +185,25 @@ a {
 div.col-6{
     width: 100%;
 }
-    .mb-5{
+.mb-5{
     padding: 0px;
 
+}
+.skills{
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+#img1{
+    height: 40%;
+    width: 100%;
+}
+.btn1{
+    height: auto;
+    width: auto;
+}
+.first{
+    padding: 0px !important;
 }
 
 }
